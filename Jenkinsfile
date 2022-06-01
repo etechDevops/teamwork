@@ -6,10 +6,5 @@ pipeline{
                 sh 'lscpu'
             }
         }
-        stage('2-systemcheck'){
-            steps{
-                sh 'free -g'
-            }
-        }
     }
 }
